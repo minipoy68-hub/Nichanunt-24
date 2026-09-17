@@ -6,5 +6,7 @@
 
 
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
-pay = int(input())
-price = int(input())
+pay = int(input("กรุณากรอกจำนวนเงิน :"))
+price = int(input("กรอกราคาสินค้า :"))
+resuit= pay-price
+print("จำนวนเงินทอน",resuit)
